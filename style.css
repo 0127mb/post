@@ -1,0 +1,72 @@
+h2 {
+    color: rgba(85, 85, 85, 1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    gap: 20px;
+}
+
+.s {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.left {
+
+    width: 300px;
+}
+
+.left button {
+    background-color: rgba(10, 119, 95, 1);
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    justify-content: center;
+}
+
+.right {
+    position: absolute;
+    left: 850px;
+    top: 30px;
+}
+
+.box {
+    background-color: rgba(243, 215, 183, 1);
+    width: 100%;
+
+}
+
+
+
+.hud {
+    display: flex;
+}
+
+.forex {
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+ p {
+    width: 400px;
+}
+footer{display: flex; justify-content: space-around; align-items: center; width: 100%;height: 160px; background-color: rgba(243, 215, 183, 1); gap: 200px;}
+.gh{display: flex;gap: 200px; }
